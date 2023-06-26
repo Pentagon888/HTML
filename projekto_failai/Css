@@ -1,0 +1,7 @@
+<p>
+body{font-size:80px;
+font - family: sans serif;}
+div{float; left;}
+.piano{
+backgroud-color: orange; padding; 20px;}
+.guitar{background-color: yellow;margin:20px}
