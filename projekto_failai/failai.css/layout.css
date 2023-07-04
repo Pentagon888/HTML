@@ -1,0 +1,19 @@
+
+
+body > header > nav{float :left;}
+ </p>
+   <style>
+      p {
+        color: blue;
+        background-color: red;
+        padding: 20px;
+        border: 5px solid black;
+      }
+    </style>
+    <style>
+      p {
+        color: blue;
+        border: 5px solid black;
+        background-color: yellow;
+      }
+    </style>
