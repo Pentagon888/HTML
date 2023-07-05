@@ -15,6 +15,7 @@ console.log('n=false');
 }
 x++;
 n=!n; // n = false
+}
 
 for (let i=0; i<=16; i+=4)
 {console.log(i)}
