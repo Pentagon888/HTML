@@ -1,4 +1,4 @@
-let x=5;
+let x= 5;
 let y = 6;
 let z = x+y;
 console.log(z);
@@ -18,14 +18,15 @@ for (let i=0; i<=16; i+=4)
 
 let a = 2+2;
 
-switch (a){
-    case3:
+switch (a)
+{
+    case 3:
         console.log('a reiksme yra maziau uz 4 ');
         break;
-    case4:
+    case 4:
         console.log ('a reiksme yra lygi 4');
         break;
-    case5:
+    case 5:
         console.log ('a reiksme daugiau uz 4');
         break;
     default:
@@ -53,8 +54,8 @@ console.log(fruits[0]);//Apple
 console.log(fruits[1]);//Orange
 console.log(fruits[2]);//Plum
 
-let fruits[2]='Pear';
-let fruits[3]='Lemon';
+let fruits [2]= 'Pear';
+let fruits [3]= 'Lemon';
 console.log (fruits.length);
 
 let arr =["Apple","Orange","Plum"];
@@ -77,3 +78,40 @@ userName="Bob";//(1) changed the outer variable let message = ' Hello,'+userName
 console.log(userName);// John before the function call
 showMessage();
 console.log(userName);
+
+function atimti (a,b){
+return (a-b;);
+}
+console.log(sum(5,6));
+
+
+let studentai = [
+ { vardas: "Andrius", pavarde: "Grazulis",  pazymiai: [6, 8, 6] },
+   { vardas: "Rusne", pavarde: "Barboryte", pazymiai: [6, 5, 4, 8] },
+     { vardas: "Giedre", pavarde: "Gui",  pazymiai: [6, 7, 7] },
+       { vardas: "Darius", pavarde: "Bertulis", pazymiai: [9, 8, 7] },
+       { vardas: "Mantas", pavarde: "Stundža", pazymiai: [9, 5, 9] },
+       { vardas: "Giedre", pavarde: "Gui", pazymiai: [6, 7, 7] }];
+
+ console.log(studentai[5].vardas,
+ studentai[5].pavarde,
+ studentai[5].pazymiai);
+
+ console.log(studentai[4].vardas,
+ studentai[4].pavarde,"mokosi KTU, 4 kurse, jo pažymiai:",
+ studentai[4].pazymiai);
+ console.log(studentai[4].vardas,
+ studentai[4].pavarde,
+ "mokosi KTU, 4 kurse, jo pažymiai:",
+ studentai[4].pazymiai.join(" , "));
+ console.log(studentai[4].vardas,
+ studentai[4].pavarde,"mokosi KTU",
+ studentai[4].kursas, "kurse, jo pazymiai:",
+ studentai[4].pazymiai.join(" , "));
+
+let studentas = studentai[1];
+console.log("Studento", studentas.vardas,
+ studentas.pavarde, "pažymiai:");
+for (let j = 0; j < studentas.pazymiai.length; j++)
+ {  console.log(studentas.pazymiai[j]);}
+
