@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+
+
 let x= 5;
 let y = 6;
 let z = x+y;
@@ -114,4 +118,144 @@ console.log("Studento", studentas.vardas,
  studentas.pavarde, "pažymiai:");
 for (let j = 0; j < studentas.pazymiai.length; j++)
  {  console.log(studentas.pazymiai[j]);}
+
+ function tikriname(studentas){
+
+for (var i = 0; i < studentas.pazymiai.length;i++) {
+if (studentas.pazymiai[i] < 10) {
+studentas.pazymiai[i]++;
+}
+}
+
+}
+
+function kaDaryti () {
+    alert ("Aciu, kad paspaudete mane1")
+
+}
+document.body.addEventListener("click", kaDaryti);
+
+document.body.addEventListener("click", () => alert("Viskas super neaisku!");
+elementas3.onclick = function (){ alert ("Sugadinta diena 100%")})
+
+
+
+let atsitik = Math.random() * 10;
+
+console.log(atsitik);
+
+
+
+let skai = Math.floor(atsitik);
+
+console.log(skai);
+
+
+
+let skai_iki_10 = skai + 1
+
+console.log(skai_iki_10);
+
+
+
+// Generuojamas atsitiktinis skaicius nuo 0 iki 1 neimtinai
+let atsitiktinisSkaicius = Math.random();
+let randomSkaicius = Math.floor(Math.random() * 10) + 1;
+console.log(randomSkaicius);
+
+// atsitiktinis skaicius dauginamas iš 10
+atsitiktinisSkaicius *= 10;
+// Suapvalinsiu atsitiktini skaiciu iki sveiko skaiciaus
+atsitiktinisSkaicius = Math.floor(atsitiktinisSkaicius);
+// ir t.t.
+console.log(atsitiktinisSkaicius);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
